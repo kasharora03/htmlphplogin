@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>order</title>
+</head>
+<body>
+    <img src="https://res.cloudinary.com/purnesh/image/upload/f_auto/v1613645764/131613645763383.jpg">
+    <br>
+    <h1> PRICE:13,690</h1>
+    <br>
+    ENTER QUANTITY
+    <input type="number" id="qua">
+    <button onclick="order()">CLICK TO ORDER</button>
+    <script language="javascript">
+        function order(){
+            alert("item added to cart");
+            var q=document.getElementById("qua").value;
+            var p=13690;
+            var t=q*p;
+            alert("your total is:  "+t);
+            
+        }
+    </script>
+</body>
+</html>
